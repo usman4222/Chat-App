@@ -25,11 +25,6 @@ const Login = () => {
         }
     };
 
-    // Function to trigger file input click
-    const handleImageUploadClick = () => {
-        fileInputRef.current.click();
-    };
-
     return (
         <div className={`container ${isSignUpMode ? 'sign-up-mode' : ''}`}>
             <div className="forms-container">
