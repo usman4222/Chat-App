@@ -1,6 +1,6 @@
 import React, { lazy } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import ProtectedRoute from './components/ProtectedRoute'
+import ProtectedRoute from './components/auth/ProtectedRoute'
 import './index.css'
 
 // for code splitting
@@ -27,7 +27,7 @@ const App = () => {
             <Login />
           </ProtectedRoute>
         } />
-        <Route path='*' element={<NotFound />} />
+        {/* <Route path='*' element={<NotFound />} /> */}
       </Routes>
     </BrowserRouter>
   )

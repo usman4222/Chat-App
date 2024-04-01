@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.sidebar::-webkit-scrollbar {
+    width: 8px; 
+  }
+
+  .sidebar::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+
+  .sidebar::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #FFA429, #FFA429);
+    border-radius: 4px; 
+  }
+
+  .sidebar::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #FFA429, #FFA429); 
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px; /* Set the width of the scrollbar */
+  }
+
+  /* Track */
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the track */
+  }
+
+  /* Handle */
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #FFA429, #FFA429); /* Gradient background color */
+    border-radius: 4px; /* Rounded corners */
+  }
+
+  /* Handle on hover */
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #FFA429, #FFA429); /* Gradient background color on hover */
+  }

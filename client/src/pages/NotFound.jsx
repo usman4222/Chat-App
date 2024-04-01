@@ -1,17 +1,8 @@
 import { Button } from '@mui/material';
 import React from 'react'
 import { BiSolidMessageSquareError } from "react-icons/bi";
-// import { makeStyles } from '@mui/styles';
 
 const NotFound = () => {
-    // const classes = useStyles();
-
-    // const useStyles = makeStyles({
-    //     outlinedButton: {
-    //         color: '#18d39e',
-    //         borderColor: '#18d39e',
-    //     },
-    // });
 
     return (
         <div className='flex justify-center items-center h-[100vh]'>
@@ -19,7 +10,7 @@ const NotFound = () => {
                 <div className='flex justify-center items-center py-5'>
                     <BiSolidMessageSquareError className='text-6xl text-[#FFA429]' />
                 </div>
-                <p className='text-center text-[#FFA429] font-bold text-3xl'>Page Not Found</p>
+                <p className='text-center text-[#FFA429] font-bold text-3xl'>Page Not Found !</p>
                 <div className='flex justify-center items-center py-5'>
                     <Button variant="contained" href="/" style={{ backgroundColor: '#FFA429', color: 'white' }}>
                         Back to Home
