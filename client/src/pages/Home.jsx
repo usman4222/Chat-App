@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { IoChatbubbles } from "react-icons/io5";
 import { FaUserCircle } from "react-icons/fa";
-import AppLayout from '../layout/AppLayout';
-import Header from '../components/auth/Header';
+import AppLayout from '../components/layout/AppLayout';
+import Header from '../components/layout/Header';
 
 const Home = () => {
   const [activeChat, setActiveChat] = useState(null);

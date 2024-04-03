@@ -1,5 +1,5 @@
 import React from 'react'
-import Title from '../shared/Title'
+import Title from '../../shared/Title'
 
 const AppLayout = () => (WrappedComponent) => {
   return (props) => {
